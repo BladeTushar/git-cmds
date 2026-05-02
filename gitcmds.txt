@@ -3,3 +3,15 @@ git add ____ / git add .
 git rm --cached
 git commit -m "msg"
 git restore _____
+
+Link and push to GitHub existing one:
+remote add origin <PASTE_YOUR_REPO_URL>
+git branch -M main
+git push -u origin main
+
+To create a existing repo:
+git init
+git add .
+git commit -m "__"
+git remote add origin ____
+git push -u origin main
